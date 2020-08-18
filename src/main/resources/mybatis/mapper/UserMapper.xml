@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ynrd.mapper.UserMapper">
+    <resultMap id="userResultMap" type="com.ynrd.bean.User">
+        <id column="user_id" property="userId"/>
+        <result column="username" property="userName"/>
+        <result column="password" property="userPwd"/>
+        <result column="password_salt" property="pwdSalt"/>
+    </resultMap>
+<!--    <select id="getUserById" resultMap="userResultMap">-->
+<!--        select * from users where id = #{id}-->
+<!--    </select>-->
+
+    <insert id="insertUser">
+        insert into tb_users(username, password, password_salt) values (#{userName}, #{userPwd}, #{pwdSalt})
+    </insert>
+
+    <select id="queryUserByUsername" resultMap="userResultMap">
+        select * from tb_users where username = #{username}
+    </select>
+
+</mapper>

@@ -1,0 +1,15 @@
+com\ynrd\mapper\RoleMapper.class
+com\ynrd\mapper\UserMapper.class
+com\ynrd\controller\UserController.class
+com\ynrd\service\impl\UserServiceImpl.class
+com\ynrd\util\URLConnection.class
+com\ynrd\YnrdApplication.class
+com\ynrd\api\ApiController.class
+com\ynrd\mapper\PermissionMapper.class
+com\ynrd\config\MyRealm.class
+com\ynrd\bean\User.class
+com\ynrd\config\ShiroTagsFreeMarkerCfg.class
+com\ynrd\controller\IndexController.class
+com\ynrd\YnrdStartApplication.class
+com\ynrd\config\Conifg.class
+com\ynrd\service\UserService.class

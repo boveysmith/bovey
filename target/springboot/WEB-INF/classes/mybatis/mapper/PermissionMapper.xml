@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ynrd.mapper.PermissionMapper">
+
+    <select id="queryPermissionsByUsername" resultSets="java.util.Set" resultType="string">
+        SELECT tb_permissions.permission_code from tb_users
+        INNER JOIN tb_urs
+        on tb_users.user_id = tb_urs.uid
+        INNER JOIN tb_roles
+        on tb_urs.rid = tb_roles.role_id
+        INNER JOIN tb_rps
+        on tb_roles.role_id = tb_rps.rid
+        INNER JOIN tb_permissions
+        on tb_rps.pid = tb_permissions.permission_id
+        WHERE tb_users.username = #{username}
+    </select>
+
+</mapper>

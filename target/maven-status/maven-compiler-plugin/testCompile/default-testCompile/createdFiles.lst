@@ -1,0 +1,4 @@
+com\ynrd\mapper\PermissionMapperTest.class
+com\ynrd\mapper\UserMapperTest.class
+com\ynrd\mapper\RoleMapperTest.class
+com\ynrd\YnrdApplicationTests.class

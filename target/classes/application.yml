@@ -1,0 +1,29 @@
+server:
+  port: 9898
+#  servlet:
+#    context-path: /sp
+spring:
+  freemarker:
+    charset: utf-8
+    suffix: .ftl
+    content-type: text/html; charset=utf-8
+    template-loader-path: classpath:/templates
+    # 设置页面缓存
+    cache: false
+  mvc:
+    static-path-pattern: /**
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/ynrd2?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.ynrd.bean
+
+  logging:
+    config: classpath:log4j2.xml
+    level: trace

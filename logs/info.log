@@ -1,0 +1,58 @@
+16:59:50.373 [main] INFO  com.ynrd.YnrdApplication - Starting YnrdApplication on DESKTOP-1H8NOBR with PID 50688 (F:\ynrd\target\classes started by bovey in F:\ynrd)
+16:59:50.379 [main] INFO  com.ynrd.YnrdApplication - No active profile set, falling back to default profiles: default
+16:59:51.260 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9898"]
+16:59:51.260 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+16:59:51.261 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+16:59:51.363 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:59:51.619 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+16:59:51.625 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+16:59:51.625 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+16:59:51.625 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+16:59:51.626 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+16:59:51.626 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+16:59:51.626 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+16:59:51.626 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@75a0c890
+16:59:51.645 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9898"]
+16:59:51.661 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+16:59:51.666 [main] INFO  com.ynrd.YnrdApplication - Started YnrdApplication in 1.54 seconds (JVM running for 2.382)
+17:00:04.949 [http-nio-9898-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:00:16.170 [http-nio-9898-exec-9] INFO  com.ynrd.controller.UserController - --------用户登录------
+17:00:16.180 [http-nio-9898-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:00:16.249 [http-nio-9898-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:00:16.275 [http-nio-9898-exec-9] INFO  com.ynrd.service.impl.UserServiceImpl - --------登录成功------
+17:03:03.530 [main] INFO  com.ynrd.YnrdApplication - Starting YnrdApplication on DESKTOP-1H8NOBR with PID 49388 (F:\ynrd\target\classes started by bovey in F:\ynrd)
+17:03:03.536 [main] INFO  com.ynrd.YnrdApplication - No active profile set, falling back to default profiles: default
+17:03:04.418 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9898"]
+17:03:04.418 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+17:03:04.418 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+17:03:04.519 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:03:04.776 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+17:03:04.782 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+17:03:04.782 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+17:03:04.782 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+17:03:04.783 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+17:03:04.783 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+17:03:04.783 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+17:03:04.783 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@329bad59
+17:03:04.802 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9898"]
+17:03:04.818 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+17:03:04.823 [main] INFO  com.ynrd.YnrdApplication - Started YnrdApplication in 1.531 seconds (JVM running for 2.359)
+17:03:19.253 [http-nio-9898-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:03:23.888 [http-nio-9898-exec-2] INFO  com.ynrd.controller.UserController - --------用户登录------
+17:03:23.897 [http-nio-9898-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:03:23.980 [http-nio-9898-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:03:24.005 [http-nio-9898-exec-2] INFO  com.ynrd.service.impl.UserServiceImpl - --------登录成功------
